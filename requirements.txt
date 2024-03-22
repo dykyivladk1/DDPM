@@ -1,0 +1,8 @@
+PIL
+argparse
+model
+os
+polip
+torch
+torchvision
+tqdm
