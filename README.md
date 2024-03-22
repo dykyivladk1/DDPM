@@ -1,6 +1,6 @@
 # DDPM Implementation
 
-This repository contains the implementation of simple Denoising Diffusion Probabilistic Model.
+This repository contains the implementation of simple Denoising Diffusion Probabilistic Model. DDPM uses a principle of applying a noise to an image, and then learns how to reverse this action.
 
 ## Getting Started
 
@@ -42,6 +42,4 @@ After downloading, place the dataset in an appropriate directory within the your
     ```
     python scripts/train.py --image_dir <image_dir> --device <device>
     ```
-4. **Visualisations**
 
-    You can use Netron app for opening the **.onnx** files stored in visualisations folder. I used them for understanding the model structure.
